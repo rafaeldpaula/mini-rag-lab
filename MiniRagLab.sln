@@ -1,0 +1,63 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{69C2C5DF-C787-492E-885C-999C39B65352}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{45A106CF-2233-4FCC-A43A-23434C924672}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4D6EE4}") = "MiniRagLab.Api", "src\MiniRagLab.Api\MiniRagLab.Api.csproj", "{0F31C826-1397-43B2-AF8B-99DAAE02418B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4D6EE4}") = "MiniRagLab.Application", "src\MiniRagLab.Application\MiniRagLab.Application.csproj", "{32FFE1D8-902D-4A74-876D-E748AE13ECC4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4D6EE4}") = "MiniRagLab.Domain", "src\MiniRagLab.Domain\MiniRagLab.Domain.csproj", "{FCA13B9D-3974-4316-9501-74AB9CCF1756}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4D6EE4}") = "MiniRagLab.Infrastructure", "src\MiniRagLab.Infrastructure\MiniRagLab.Infrastructure.csproj", "{0B3BCF60-029D-4B84-BBF1-DBB8B46AB1F8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4D6EE4}") = "MiniRagLab.UnitTests", "tests\MiniRagLab.UnitTests\MiniRagLab.UnitTests.csproj", "{72FDE7C7-7ECB-4B11-A41A-9F4C866FF1B0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4D6EE4}") = "MiniRagLab.IntegrationTests", "tests\MiniRagLab.IntegrationTests\MiniRagLab.IntegrationTests.csproj", "{B4836819-0D48-4921-B683-8B11392253A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F31C826-1397-43B2-AF8B-99DAAE02418B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F31C826-1397-43B2-AF8B-99DAAE02418B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F31C826-1397-43B2-AF8B-99DAAE02418B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F31C826-1397-43B2-AF8B-99DAAE02418B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32FFE1D8-902D-4A74-876D-E748AE13ECC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32FFE1D8-902D-4A74-876D-E748AE13ECC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32FFE1D8-902D-4A74-876D-E748AE13ECC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32FFE1D8-902D-4A74-876D-E748AE13ECC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCA13B9D-3974-4316-9501-74AB9CCF1756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCA13B9D-3974-4316-9501-74AB9CCF1756}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCA13B9D-3974-4316-9501-74AB9CCF1756}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCA13B9D-3974-4316-9501-74AB9CCF1756}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B3BCF60-029D-4B84-BBF1-DBB8B46AB1F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B3BCF60-029D-4B84-BBF1-DBB8B46AB1F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B3BCF60-029D-4B84-BBF1-DBB8B46AB1F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B3BCF60-029D-4B84-BBF1-DBB8B46AB1F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72FDE7C7-7ECB-4B11-A41A-9F4C866FF1B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72FDE7C7-7ECB-4B11-A41A-9F4C866FF1B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72FDE7C7-7ECB-4B11-A41A-9F4C866FF1B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72FDE7C7-7ECB-4B11-A41A-9F4C866FF1B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4836819-0D48-4921-B683-8B11392253A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4836819-0D48-4921-B683-8B11392253A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4836819-0D48-4921-B683-8B11392253A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4836819-0D48-4921-B683-8B11392253A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0F31C826-1397-43B2-AF8B-99DAAE02418B} = {69C2C5DF-C787-492E-885C-999C39B65352}
+		{32FFE1D8-902D-4A74-876D-E748AE13ECC4} = {69C2C5DF-C787-492E-885C-999C39B65352}
+		{FCA13B9D-3974-4316-9501-74AB9CCF1756} = {69C2C5DF-C787-492E-885C-999C39B65352}
+		{0B3BCF60-029D-4B84-BBF1-DBB8B46AB1F8} = {69C2C5DF-C787-492E-885C-999C39B65352}
+		{72FDE7C7-7ECB-4B11-A41A-9F4C866FF1B0} = {45A106CF-2233-4FCC-A43A-23434C924672}
+		{B4836819-0D48-4921-B683-8B11392253A1} = {45A106CF-2233-4FCC-A43A-23434C924672}
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
